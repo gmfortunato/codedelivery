@@ -3,7 +3,7 @@
 namespace CodeDelivery\Http\Controllers;
 
 
-use CodeDelivery\Http\Requests\Request;
+use Illuminate\Http\Request;
 use CodeDelivery\Repositories\OrderRepository;
 use CodeDelivery\Repositories\UserRepository;
 
