@@ -9,9 +9,11 @@
 
         <table class="table table-bordered">
             <thead>
-            <tr>ID</tr>
-            <tr>Total</tr>
-            <tr>Status</tr>
+                <tr>
+                    <td>ID</td>
+                    <td>Total</td>
+                    <td>Status</td>
+                </tr>
             </thead>
             <tbody>
             @foreach($orders as $order)
@@ -24,6 +26,6 @@
             </tbody>
         </table>
 
-        {!! $cupoms->render() !!}
+        {!! $orders->render() !!}
     </div>
 @endsection

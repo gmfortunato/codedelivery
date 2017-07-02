@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a67293ec-fd72-468b-b7c1-0e4a1b439a09" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Services/OrderService.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/customer/order/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/customer/order/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/customer/order/create.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/customer/order/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/customer/order/index.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,12 +34,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="76">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#7#392#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,8 +49,8 @@
       <file leaf-file-name="CheckoutController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+            <state relative-caret-position="782">
+              <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
               <folding>
                 <element signature="e#49#95#0#PHP" expanded="true" />
               </folding>
@@ -71,19 +71,31 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/customer/order/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="374">
+              <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserTableSeeder.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserTableSeeder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/seeds/UserTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="476">
+              <caret line="28" column="59" lean-forward="false" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+              <folding>
+                <element signature="e#7#38#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/app/Services/OrderService.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="739">
-              <caret line="73" column="27" lean-forward="true" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+              <caret line="73" column="27" lean-forward="false" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
               <folding>
                 <element signature="e#128#174#0#PHP" expanded="true" />
               </folding>
@@ -103,8 +115,8 @@
       <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/customer/order/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="85">
+              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -119,6 +131,7 @@
       <find>CategoryRepository</find>
       <find>lists()</find>
       <find>FatalErrorException</find>
+      <find>orderServi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -173,14 +186,14 @@
         <option value="$PROJECT_DIR$/resources/views/admin/cupoms/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CupomsController.php" />
         <option value="$PROJECT_DIR$/app/Repositories/ProductRepositoryEloquent.php" />
-        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/customer/order/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Services/OrderService.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/customer/order/index.blade.php" />
-        <option value="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/Models/User.php" />
+        <option value="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" />
+        <option value="$PROJECT_DIR$/resources/views/customer/order/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/customer/order/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
       </list>
     </option>
   </component>
@@ -286,8 +299,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -371,33 +382,17 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Services" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codedelivery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="codedelivery" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="SearchEverywhereHistoryKey" value="User&#9;null&#9;null&#10;UserTabl&#9;null&#9;null&#10;route&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Http/routes.php&#10;app.bl&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/resources/views/app.blade.php&#10;Product&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Repositories/ProductRepositoryEloquent.php&#10;rout&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Http/routes.php&#10;Order&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Models/Order.php&#10;bind&#9;null&#9;null&#10;service&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Providers/RepositoryServiceProvider.php&#10;Service&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Providers/RepositoryServiceProvider.php&#10;RepositoryServ&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Providers/RepositoryServiceProvider.php&#10;Modelf&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/database/factories/ModelFactory.php&#10;product&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Http/Controllers/ProductsController.php&#10;routes&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Http/routes.php&#10;Products&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Http/Controllers/ProductsController.php&#10;RepositorySer&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Providers/RepositoryServiceProvider.php&#10;RepositoryService&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Providers/RepositoryServiceProvider.php&#10;Cate&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Repositories/CategoryRepository.php&#10;Produ&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Repositories/ProductRepository.php&#10;categoryre&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Repositories/CategoryRepository.php&#10;app&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/resources/views/app.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/resources/views/app.blade.php&#10;User&#9;null&#9;null&#10;UserTabl&#9;null&#9;null&#10;route&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Http/routes.php&#10;app.bl&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/resources/views/app.blade.php&#10;Product&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Repositories/ProductRepositoryEloquent.php&#10;rout&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Http/routes.php&#10;Order&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Models/Order.php&#10;bind&#9;null&#9;null&#10;service&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Providers/RepositoryServiceProvider.php&#10;Service&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Providers/RepositoryServiceProvider.php&#10;RepositoryServ&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Providers/RepositoryServiceProvider.php&#10;Modelf&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/database/factories/ModelFactory.php&#10;product&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Http/Controllers/ProductsController.php&#10;routes&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Http/routes.php&#10;Products&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Http/Controllers/ProductsController.php&#10;RepositorySer&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Providers/RepositoryServiceProvider.php&#10;RepositoryService&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Providers/RepositoryServiceProvider.php&#10;Cate&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Repositories/CategoryRepository.php&#10;Produ&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Repositories/ProductRepository.php&#10;categoryre&#9;FILE&#9;file://C:/Users/Fortunato/Desktop/codedelivery/app/Repositories/CategoryRepository.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -538,12 +533,13 @@
       <workItem from="1498609481276" duration="4540000" />
       <workItem from="1498693611626" duration="466000" />
       <workItem from="1498832703123" duration="3108000" />
-      <workItem from="1498874810584" duration="2740000" />
+      <workItem from="1498874810584" duration="2926000" />
+      <workItem from="1499008248832" duration="4018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65810000" />
+    <option name="totallyTimeSpent" value="70014000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,19 +606,17 @@
           <line>5</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/database/seeds/UserTableSeeder.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="4" column="15532" lean-forward="false" selection-start-line="4" selection-start-column="15532" selection-end-line="4" selection-end-column="15532" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Container/Container.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -888,7 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="70" lean-forward="false" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,7 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,32 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/OrderService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="73" column="27" lean-forward="true" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
-          <folding>
-            <element signature="e#128#174#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="70" column="23" lean-forward="false" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Repositories/ProductRepositoryEloquent.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -962,19 +928,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/customer/order/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/customer/order/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Services/OrderService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="739">
+          <caret line="73" column="27" lean-forward="false" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+          <folding>
+            <element signature="e#128#174#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -988,19 +956,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+        <state relative-caret-position="782">
+          <caret line="46" column="27" lean-forward="false" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
           <folding>
             <element signature="e#49#95#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/customer/order/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/customer/order/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="46" column="30" lean-forward="false" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/UserTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="476">
+          <caret line="28" column="59" lean-forward="false" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#392#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

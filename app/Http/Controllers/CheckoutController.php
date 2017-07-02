@@ -15,7 +15,7 @@ class CheckoutController extends Controller
     /**
      * @var OrderRepository
      */
-    private $orderRepository;
+    private $repository;
     /**
      * @var UserRepository
      */
@@ -27,21 +27,21 @@ class CheckoutController extends Controller
     /**
      * @var OrderService
      */
-    private $orderService;
+    private $service;
 
     public function __construct(
-        OrderRepository $orderRepository,
+        OrderRepository $repository,
         UserRepository $userRepository,
         ProductRepository $productRepository,
-        OrderService $orderService
+        OrderService $service
         )
     {
 
 
-        $this->orderRepository = $orderRepository;
+        $this->repository = $repository;
         $this->userRepository = $userRepository;
         $this->productRepository = $productRepository;
-        $this->orderService = $orderService;
+        $this->service = $service;
     }
 
     public function index()
