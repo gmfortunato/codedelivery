@@ -15,7 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 Route::group(['prefix'=>'admin', 'middleware' => 'auth.checkrole:admin', 'as' => 'admin.'], function (){
     Route::get('categories', ['as'=>'categories.index', 'uses'=>'CategoriesController@index']);
     Route::get('categories/create', ['as'=>'categories.create', 'uses'=>'CategoriesController@create']);
@@ -58,4 +57,7 @@ Route::group(['prefix' => 'customer', 'middleware' => 'auth.checkrole:client', '
 
 });
 
+Route::post('oauth/access_token', function() {
+    return Response::json(Authorizer::issueAccessToken());
+});
 
